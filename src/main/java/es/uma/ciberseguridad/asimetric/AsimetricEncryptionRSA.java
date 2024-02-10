@@ -14,7 +14,7 @@ public class AsimetricEncryptionRSA {
         PrivateKey privateKey = keyPair.getPrivate();
 
         // Texto a firmar
-        String texto = "Tu nombre y apellidos";
+        String texto = "Andrés Samuel Podadera González";
 
         // Inicializar objeto para firmar
         Signature signature = Signature.getInstance("SHA256withRSA");
